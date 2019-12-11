@@ -662,9 +662,9 @@ Allántennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d2 c d4 d2 c4 d4 r4
+  \transpose c g {c4 a2 g f4 e2 c4 d4} r4
   \bar "" \break
-  c4 d c d c d2 c4 d c d c d c \bar "|."
+  g4 a b c' a g2 a4 b c' d' e' c' c' \bar "|."
 }
 Allántenwords = \lyricmode { The just man did not give up. 
                              He left the farm a- gain to walk to the cap- i- tal. }
@@ -1078,9 +1078,9 @@ Allánfifteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d d2 c4 d 
+  e4 e e d g2 d4 e 
   \bar "" \break
-  c d c d c d c d c d \bar "|."
+  b d e a g g fs e d e \bar "|."
 }
 Allánfifteenwords = \lyricmode { The just man did not give up. 
                                  He re- turned to the cap- i- tal once more. }
@@ -1163,8 +1163,8 @@ Allánsixteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d e c d e d2 c4 d c d c d c d \bar "" \break
-  c c d c2 d4 c d c d \bar "|."
+  ds'4 e' fs' e' ds'2 d'4 cs'2 b4 cs' as2 gs4 as b as e \bar "" \break
+  d e gs!4 b2 a4 c' b2 a4 b2 \bar "|."
 }
 Allánsixteenwords = \lyricmode { He was ver- y tired. 
                                  His clothes were in rags and his shoes worn out. 
@@ -1223,7 +1223,7 @@ Allánseventeennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d d c d c d c \bar "|."
+  e4 e gs gs gs gs c' bf gs e \bar "|."
 }
 Allánseventeenwords = \lyricmode { In the cap- i- tal he lived by beg- ging.}
 
