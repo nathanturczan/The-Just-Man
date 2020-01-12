@@ -895,8 +895,8 @@ Allántwelvenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d c d c d c d c d c d \bar "" \break
-  c2 d2 c2 d4 c d2 c2 \bar "|."
+  c'4 c' c' c' c' cs' d' ds' e' cs' d' ds' e' b \bar "" \break
+  d'2 e'2 f'2 e'4 d' b2 as2 \bar "|."
 }
 Allántwelvewords = \lyricmode {They told him to go back to the farm and tell the bad men— in their name— that they must leave. }
 
@@ -1019,7 +1019,7 @@ Allánfourteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d c d \bar "|." 
+  a4 b gs b c' fs \bar "|." 
 }
 Allánfourteenwords = \lyricmode { They mocked him and beat him. }
 
@@ -1346,7 +1346,7 @@ Allánnineteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 c c c c c c c c c c \bar "|."
+  e'4 fs' e' cs' d' e' fs' e' cs' e' d' \bar "|."
 }
 Allánnineteenwords = \lyricmode { They said they would put the bad men in pri- son. }
 
@@ -1401,7 +1401,7 @@ Allántwentynotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d \bar "|."
+  b4 cs' ds' es' \bar "|."
 }
 Allántwentywords = \lyricmode {He went back home. }
 
@@ -1432,7 +1432,7 @@ Allántwentyonenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d c d \bar "|." 
+  b4 cs' d' b gf' f' \bar "|." 
 }
 Allántwentyonewords = \lyricmode {He was beat- en a- gain. }
 
@@ -1490,9 +1490,9 @@ Allántwentytwonotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d2 d4 c4 r4
+  bf4 bf a cs'2 bf4 d'4 r4
   \bar "" \break
-  c2 d2 c4 d c d c d c d c d c4 \bar "|."
+  b2 f'2 b4 c' d' e' d' e' df' f' e' fs' f'4 \bar "|."
 }
 Allántwentytwowords = \lyricmode { But he did not give up. 
                                    Once more he set off for the cap- i- tal to com- plain}
@@ -1530,7 +1530,7 @@ Allántwentythreenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c2 d4 c4 d c4 d c2 \bar "|."
+  e'2 ds'4 c'4 a b4 ds' g'2 \bar "|."
 }
 Allántwentythreewords = \lyricmode {Now the bad men were a- fraid. }
 
@@ -1642,7 +1642,7 @@ Allántwentyfivenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d d c \bar "|."
+  e'4 fs' ds' e' g' fs' \bar "|."
 }
 Allántwentyfivewords = \lyricmode {The bad men ran a- way. }
 
@@ -1687,7 +1687,7 @@ Allántwentysixnotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c  d c d d \bar "|."
+  b4 b c' b d e fs \bar "|."
 }
 Allántwentysixwords = \lyricmode { They were nev- er seen a- gain.}
 
@@ -1776,9 +1776,9 @@ Allántwentysevennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d d c 
+  c'4 d' c' d' e' c' 
   \bar "" \break
-  d c d c d c d c d \bar "|."
+  e' g' gf' f' e' g' d' e' c' \bar "|."
 }
 Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap- pi- ly ev- er af- ter. }
 
