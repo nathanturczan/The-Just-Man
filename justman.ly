@@ -1706,15 +1706,15 @@ Travistwentysevennotes =  {
   cs'2 d'2 b4 b2. a4 gs g2 fs2.
   
   \time 3/4
-  \transpose fs b {
-  fs4 g a
+
+  g4 a b
   \time 4/4
-  a2 a4 g g2 fs4 fs e2 c4 d4 
+  g'2 fs'4 d' c'2 b4 c' d'2 c'4 b4 
   \time 3/4
-  c2 c4 c2.
-  fs4 g a
+  a4( as4) b4 c'2.
+   g4 a b
   \time 4/4
-  d'2 cs'4 b a4 a4 d4 c d c d c d c r2 \bar "|." }
+  g'2 fs'4 b d'4 c'4 r4 b8 a g4 g4 r4 b8 a g4 g r2 \bar "|." 
 }
 Travistwentysevenwords = \lyricmode {Let there be clean wa- ter for those who toil. 
                                      Let there be hot food for them, and a clean bed. 
@@ -1731,15 +1731,15 @@ Tannertwentysevennotes = {
   \time 5/4
   fs2 fs2 e4 d4( cs2) cs8( d8) b,4 cs2 a,2.
   \time 3/4
-  \transpose fs b {
-  cs4 cs cs
+
+  d4 d d
   \time 4/4
-  cs2 a,4 b, a,2 a,4 b, fs,2 c4 d4 
+  e2 d4 b, e2 g4 fs g2 fs4 fs4 
   \time 3/4
-  c2 c4 c2.
-  cs4 cs cs 
+  e2 ef4 d2.
+  d4 d d 
   \time 4/4
-  c2 d4 c d c4 d4 c d c d c d c r2 \bar "|." }
+  cs'2 as4 fs g g4 r4 g8 e d4 d4 r4 g8 d g,4 g, r2 \bar "|." 
 }
 Tannertwentysevenwords = \lyricmode {Let there be clean wa- ter for those who toil. 
                                      Let there be hot food for them, and a clean bed. 
@@ -1756,15 +1756,15 @@ Nathantwentysevennotes = {
   \time 5/4
   a,2 a,2 gs,4 gs,2. fs,4 e, e,2 d,2. 
   \time 3/4
-  \transpose fs b {
-  a,4 g, fs,
+
+  b,4 a, g,
   \time 4/4
-  fs,2 d,4 e, e,2 d,4 d, cs,2 c4 d4 
+  b,2 b,4 fs, g,2 g,4 a, b,2 a,4 af,4 
   \time 3/4
-  c2 c4 c2.
-  a,4 g, fs, 
+  g,2 fs,4 fs, 2.
+  b,4 a, g, 
   \time 4/4
-  fs,2 d4 c d c4 d4 c d c d c d c r2 \bar "|." }
+  e2 cs4 d e ef4 r4 d8 b, g,4 g,4 r4 d8 b, g,4 g, r2 \bar "|." 
 }
 Nathantwentysevenwords = \lyricmode {Let there be clean wa- ter for those who toil. 
                                      Let there be hot food for them, and a clean bed. 
