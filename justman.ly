@@ -34,7 +34,7 @@ Travisonenotes =  {
   \partial 4
   g4 
   g2 a2 r2 b8 b8 b4 \tuplet 3/2 {r4 b a} \tuplet 3/2 {g g fs} e8 e8 e4 r8 e e fs g2 a8 a8 a4 
-  r4 b \tuplet 3/2 { b b b } b4. b8 d'4 d' f'1 f'4 e' d' c' e' c' a2 \bar "|."
+  r4 b \tuplet 3/2 { b b b } b4. b8 d'4 d' f'1 f'4 e' d' c' e' c' a2\fermata \bar "|."
 }
 Travisonewords = \lyricmode {
   In times past, loy- al- ty to the cause of the pop- u- lace was to be found ev'- ry- where. 
@@ -46,7 +46,7 @@ Tanneronenotes = {
   \partial 4
   c4 
   c2 d2 r2 e8 e e4 \tuplet 3/2 {r4 e e } \tuplet 3/2 { b, b, b, } a,8 a, a,4 r8 a, a, a, a,2 d8 d d4 
-  r4 d4 \tuplet 3/2 { ds ds ds } fs4. fs8 a4 a c'1 b4 b b b a g fs2 \bar "|."
+  r4 d4 \tuplet 3/2 { ds ds ds } fs4. fs8 a4 a c'1 b4 b b b a g g\fermata( fs) \bar "|."
 }
 Tanneronewords = \lyricmode { In times past, loy- al- ty to the cause of the pop- u- lace was to be found ev'- ry- where. 
                               The will of the Group of Sev- en- teen was the will of ev'- ry- one.
@@ -57,7 +57,7 @@ Nathanonenotes = {
  \partial 4
   f,4 
   f,2 g,2 r2 a,8 a, a,4 \tuplet 3/2 {r4 a, a, } \tuplet 3/2 { e, e, e, } d,8 d, d,4 r8 d, d, d, d,2 g,8 g, g,4 
-  r4 g,4 \tuplet 3/2 { gs, gs, gs, } d4. d8 f4 f af1 g4 g g g f e d2 \bar "|."
+  r4 g,4 \tuplet 3/2 { gs, gs, gs, } d4. d8 f4 f af1 g4 g g g f e d2\fermata \bar "|."
 }
 Nathanonewords = \lyricmode { In times past, loy- al- ty to the cause of the pop- u- lace was to be found ev'- ry- where. 
                               The will of the Group of Sev- en- teen was the will of ev'- ry- one.
@@ -89,8 +89,9 @@ Travistwonotes =  {
  bf a c'4 r4 r8  
   c'8 c' bf bf af af4 r8 bf8 af4 g4 r2 
   \clef treble
-  \tempo 4 = 150
-  af'4^\markup "hissed, a threat" af'4 af'2 af'4 af'4 af'2 
+  \tempo 4 = 144
+  
+  \transpose df f { af'4^\markup "hissed, a threat" af'4 af'2 af'4 af'4 af'2 
   \time 3/2
   af'2 af'2 af'2 af'1
  af'4 af'4 
@@ -99,7 +100,7 @@ Travistwonotes =  {
  \time 3/2
  af'2 af'1
  \bar "|." 
-
+  }
 }
 Travistwowords = \lyricmode {and let them look for i- dle land. 
                               Let ev'- ry- one they meet di- rect them. 
@@ -118,7 +119,7 @@ Tannertwonotes = {
  fs g a4 r4 r8  
  a8 a g g f f4 r8 g8 f4 e4 r2 
  
- f4^\markup "sung, lamenting" f4 f2 e4 e4 e2 
+ \transpose df f { f4^\markup "sung, lamenting" f4 f2 e4 e4 e2 
  \time 3/2
  f2 f2 g2 g1
  f4 g4 
@@ -128,6 +129,7 @@ Tannertwonotes = {
  \time 3/2
  df2 c1
  \bar "|."  
+ }
 
 }
 Tannertwowords = \lyricmode { let him band to- geth- er with oth- ers who are i- dle too, and let them look for i- dle land. 
@@ -150,14 +152,14 @@ Nathantwonotes = {
  bf, c d4 r4 r8  
   d8 d c c c c4 r8 c8 c4 c4 r2  
   
-  cs,4^\markup "vocal fry, starved" cs,4 cs,2 cs,4 cs,4 cs,2 
+  f,4^\markup "vocal fry, starved" f,4 f,2 f,4 f,4 f,2 
   \time 3/2
-  cs,2 cs,2 cs,2 cs,1
- cs,4 cs,4 
+  f,2 f,2 f,2 f,1
+ f,4 f,4 
  \time 4/4
- cs,2 cs,4 cs,4 cs,2 cs,4 cs,4 
+ f,2 f,4 f,4 f,2 f,4 f,4 
  \time 3/2
- cs,2 cs,1
+ f,2 f,1
  \bar "|." 
 
 }
@@ -169,10 +171,12 @@ Nathantwowords = \lyricmode { Let no one be i- dle. If one is i- dle,
 
 Allántwonotes = {
   \mark \markup{ \box 2 }
-  \clef bass
+  
   \cadenzaOn
   \omit Stem
+  \clef bass
   c'4 c' c' c' c' d'2 e'4 d' e' d' c' a \bar "" \break
+  
   g e g a g a d' c'  \bar "|."
 }
 Allántwowords = \lyricmode { There was a re- mote farm worked in part- ner- ship by peo- ple who were not re- lat- ed. }
@@ -305,7 +309,7 @@ Nathanfivewords = \lyricmode { The peo- ple meet- ing in coun- sel may judge, bu
 
 Allánfivenotes = {
   \mark \markup{ \box 5 }
-  \clef bass
+  \clef treble
   \time 4/4
   \cadenzaOn
   \omit Stem
@@ -463,7 +467,7 @@ Nathansevenwords = \lyricmode { Where the Group of Sev- en- teen sit, there fi- 
 
 Allánsevennotes = {
   \mark \markup{ \box 7 }
-  \clef bass
+  \clef treble
   \cadenzaOn
   \omit Stem
   a4 b cs' d' cs' b a d'4\rest cs' d' e'2 fs'4 e' d' cs' d' e' f' d' \bar "|."
@@ -664,7 +668,7 @@ Allántennotes = {
   \omit Stem
   \transpose c g {c4 a2 g f4 e2 c4 d4} r4
   \bar "" \break
-  g4 a b c' a g2 a4 b c' d' e' c' c' \bar "|."
+  g4 e g a2 g4 fs2 d4 e fs g fs e d2 \bar "|."
 }
 Allántenwords = \lyricmode { The just man did not give up. 
                              He left the farm a- gain to walk to the cap- i- tal. }
@@ -805,15 +809,17 @@ Allánelevennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d c d c d r4 c
+  a4 a b cs' d' cs' b a r4 \bar "" \break 
+  cs'! d' e'4 f' e' d' cs' e'4 d'4 cs' b as4. as8 cs'4 cs' e'2 
   \bar "" \break
-  c2 d4 c d c d c4 d4 c d c2 d4 c d c2 
+  a4 fs'2 e'4 d'4 cs'!2 a4 fs fs fs fs r4 
   \bar "" \break
-  d4 d2 c d4 c2 d4 c d c c r4 
+  \transpose bf a {
+  bf4 cf'4 df'4 df'2 
+  c'2  c'4 bf af } ef' ef' ef' ef' d' bf r4  
+ 
   \bar "" \break
-  d4 c d c2 d2 c4 d c d c d c d c 
-  \bar "" \break
-  d c2 d4 c d c d c d c d c d c d \bar "|."
+  g a2 bf!4 c' c' bf a2 fs!4 g a4 g2 d4 ef d c2 \bar "|."
 }
 Allánelevenwords = \lyricmode { Ar- riv- ing at the cap- i- tal, 
                                 he camped up- on the ver- y door- step of the Group of Sev- en- teen 
@@ -895,8 +901,11 @@ Allántwelvenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c'4 c' c' c' c' cs' d' ds' e' cs' d' ds' e' b \bar "" \break
-  d'2 e'2 f'2 e'4 d' b2 as2 \bar "|."
+  e'4 d' c' c'4 a g e g a2  
+  \transpose d c {
+  cs'4 d' e' fs'2 e'2  \bar "" \break
+  cs'4 e'2 d'2 e'4 d' b4 as2 \bar "|."
+  }
 }
 Allántwelvewords = \lyricmode {They told him to go back to the farm and tell the bad men— in their name— that they must leave. }
 
@@ -958,7 +967,7 @@ Nathanthirteenwords = \lyricmode { As a good child to its moth- er, so is the ci
 
 Allánthirteennotes = {
   \mark \markup{ \box 13 }
-  \clef bass
+  \clef treble
   \cadenzaOn
   \omit Stem
   a4 c' fs'2 e'4 d' fs' g' \bar "|."
@@ -1078,9 +1087,11 @@ Allánfifteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  e4 e e d g2 d4 e 
+  \transpose a e' {
+  c4 a2 g f4 e2 c4 d4
   \bar "" \break
-  b d e a g g fs e d e \bar "|."
+  bf, c d2 e4 f e d c2 bf,4 c2 \bar "|."
+  }
 }
 Allánfifteenwords = \lyricmode { The just man did not give up. 
                                  He re- turned to the cap- i- tal once more. }
@@ -1294,11 +1305,11 @@ Alláneighteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d c d c d2 c2 
+  ef4 f g af bf cf' df' df'2 c'2 
   \bar "" \break
-  d4 c d c d c d c d c d r4
+  af!4 bf! c' af gf af bf f gf af ef! r4
   \bar "" \break
-  c d c2 d4 c d c d c d c d c d \bar "|." 
+  df ef! f2 ef4 f g ef g4 bf!2 af!4 cf' bf2 af4 bf2 \bar "|."
 }
 Alláneighteenwords = \lyricmode { This time he had to wait a long while be- fore he was ad- mit- ted to the pal- ace, 
                                   but at last they let him in and heard what he had to say. }
@@ -1343,10 +1354,10 @@ Nathannineteenwords = \lyricmode { Those who will not serve the pop- u- lace sha
 
 Allánnineteennotes = {
   \mark \markup{ \box 19 }
-  \clef bass
+  \clef treble
   \cadenzaOn
   \omit Stem
-  e'4 fs' e' cs' d' e' fs' e' cs' e' d' \bar "|."
+  e'4 fs' e' cs' d' e' fs' e'2 cs'4 e' d' \bar "|."
 }
 Allánnineteenwords = \lyricmode { They said they would put the bad men in pri- son. }
 
@@ -1398,7 +1409,7 @@ Nathantwentywords = \lyricmode {Let there be clean wa- ter for those who toil.
 
 Allántwentynotes = {
   \mark \markup{ \box 20 }
-  \clef bass
+  \clef treble
   \cadenzaOn
   \omit Stem
   b4 cs' ds' es' \bar "|."
@@ -1432,7 +1443,7 @@ Allántwentyonenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  b4 cs' d' b gf' f' \bar "|." 
+  b4 cs' d' b gf f \bar "|." 
 }
 Allántwentyonewords = \lyricmode {He was beat- en a- gain. }
 
@@ -1490,9 +1501,12 @@ Allántwentytwonotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  bf4 bf a cs'2 bf4 d'4 r4
+  c4 a g e2 c4 d4 r4
   \bar "" \break
-  b2 f'2 b4 c' d' e' d' e' df' f' e' fs' f'4 \bar "|."
+  e2 a2 d'4 
+  \transpose d c {
+  a4 b cs' d' cs' b a cs' d' e'2 \bar "|."
+  }
 }
 Allántwentytwowords = \lyricmode { But he did not give up. 
                                    Once more he set off for the cap- i- tal to com- plain}
@@ -1530,7 +1544,7 @@ Allántwentythreenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  e'2 ds'4 c'4 a b4 ds' g'2 \bar "|."
+  \transpose e c {e'2 ds'4 c'4 a b4 ds' g'2 \bar "|." }
 }
 Allántwentythreewords = \lyricmode {Now the bad men were a- fraid. }
 
@@ -1563,14 +1577,18 @@ Allántwentyfournotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c4 d c d d 
-  c d c d c d c d c 
-  d \bar "" \break
-  c d c d c d c d c d c d c 
-  \bar "" \break
-  d c d c d c d c d 
-  c d r4 \bar "" \break
-  c d c d c d c d c d c d c \bar "|."
+  f'4 e' df' c' bf r4 
+  a g ef'2 ef'4 ef' d' bf!2 a4 g 
+  ef \bar "" \break
+  a d r4 
+  
+   bf! bf4 cf'4 df'4
+  df'2 c'2 bf4 af4 e'!2
+  
+  e'4 e'  \bar "" \break 
+  ds'! cs' bs ds' cs' bs a gs gs 
+  bs bs ds' r4 \bar "" \break
+ ds'! e' fs'2 fs'4 e' ds' cs'! e' ds' cs' bs! gs! \bar "|."
 }
 Allántwentyfourwords = \lyricmode { They said to them- selves, 
                                     ‘He has gone to the pal- ace a- gain and a- gain, 
@@ -1642,7 +1660,9 @@ Allántwentyfivenotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  e'4 fs' ds' e' g' fs' \bar "|."
+  \transpose b f {
+    e'4 fs' ds' e' g' fs' \bar "|."
+  }
 }
 Allántwentyfivewords = \lyricmode {The bad men ran a- way. }
 
@@ -1776,9 +1796,9 @@ Allántwentysevennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  c'4 d' c' d' e' c' 
+  g4 e' d' c' b2 a4 r4  
   \bar "" \break
-  e' g' gf' f' e' g' d' e' c' \bar "|."
+  g d'2 c'4 b a g e a g \bar "|."
 }
 Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap- pi- ly ev- er af- ter. }
 
