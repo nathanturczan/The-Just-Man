@@ -903,8 +903,8 @@ Allántwelvenotes = {
   \omit Stem
   e'4 d' c' c'4 a g e g a2  
   \transpose d c {
-  cs'4 d' e' fs'2 e'2  \bar "" \break
-  cs'4 e'2 d'2 e'4 d' b4 as2 \bar "|."
+  cs'4 d' e' fs'2 e'2 r4  \bar "" \break
+  cs'4 e'2 d'2 r4 e'4 d' b4 as2 \bar "|."
   }
 }
 Allántwelvewords = \lyricmode {They told him to go back to the farm and tell the bad men— in their name— that they must leave. }
@@ -1088,7 +1088,7 @@ Allánfifteennotes = {
   \cadenzaOn
   \omit Stem
   \transpose a e' {
-  c4 a2 g f4 e2 c4 d4
+  c4 a2 g f4 e2 c4 d4 r4
   \bar "" \break
   bf, c d2 e4 f e d c2 bf,4 c2 \bar "|."
   }
@@ -1175,7 +1175,7 @@ Allánsixteennotes = {
   \cadenzaOn
   \omit Stem
   ds'4 e' fs' e' ds'2 d'4 cs'2 b4 cs' as2 gs4 as b as e \bar "" \break
-  d e gs!4 b2 a4 c' b2 a4 b2 \bar "|."
+  r4 d e gs!4 b2 a4 c' b2 a4 b2 \bar "|."
 }
 Allánsixteenwords = \lyricmode { He was ver- y tired. 
                                  His clothes were in rags and his shoes worn out. 
@@ -1580,15 +1580,15 @@ Allántwentyfournotes = {
   f'4 e' df' c' bf r4 
   a g ef'2 ef'4 ef' d' bf!2 a4 g 
   ef \bar "" \break
-  a d r4 
+  a! d! r4 
   
    bf! bf4 cf'4 df'4
   df'2 c'2 bf4 af4 e'!2
   
-  e'4 e'  \bar "" \break 
-  ds'! cs' bs ds' cs' bs a gs gs 
-  bs bs ds' r4 \bar "" \break
- ds'! e' fs'2 fs'4 e' ds' cs'! e' ds' cs' bs! gs! \bar "|."
+  e'4 e'2 r4  \bar "" \break 
+  ef'! df'! c' ef' df' c' a gs gs 
+  c' c' ef' r4 \bar "" \break
+ ef'! ff' gf'2 c'4 ff' ef' df'! ff' ef' df' c'! af! \bar "|."
 }
 Allántwentyfourwords = \lyricmode { They said to them- selves, 
                                     ‘He has gone to the pal- ace a- gain and a- gain, 
@@ -1869,6 +1869,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -1924,6 +1925,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -1979,6 +1981,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2034,6 +2037,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2089,6 +2093,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2144,6 +2149,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2199,6 +2205,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2254,6 +2261,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2309,6 +2317,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2364,6 +2373,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2419,6 +2429,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2474,6 +2485,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2529,6 +2541,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2584,6 +2597,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2639,6 +2653,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2694,6 +2709,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2754,6 +2770,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2809,6 +2826,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2864,6 +2882,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2919,6 +2938,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -2974,6 +2994,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -3029,6 +3050,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -3084,6 +3106,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -3139,6 +3162,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -3194,6 +3218,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
  %-----------------------------------------------------------------------------------------------------------------------------
@@ -3249,6 +3274,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
 
@@ -3305,6 +3331,7 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
     }
  
     }
+    \midi { }
 }
 
 
