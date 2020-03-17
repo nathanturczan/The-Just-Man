@@ -470,7 +470,7 @@ Allánsevennotes = {
   \clef treble
   \cadenzaOn
   \omit Stem
-  a4 b cs' d' cs' b a d'4\rest cs' d' e'2 fs'4 e' d' cs' d' e' f' d' \bar "|."
+  a4 b cs' d' cs' b a r4 cs' d' e'2 fs'4 e' d' cs' d' e' f' d' \bar "|."
 }
 Allánsevenwords = \lyricmode { He went to the cap- i- tal and com- plained of the way he had been treat- ed. }
 
@@ -1174,8 +1174,8 @@ Allánsixteennotes = {
   \clef bass
   \cadenzaOn
   \omit Stem
-  ds'4 e' fs' e' ds'2 d'4 cs'2 b4 cs' as2 gs4 as b as e \bar "" \break
-  r4 d e gs!4 b2 a4 c' b2 a4 b2 \bar "|."
+  ds'4 e' fs' e' ds'2 r4 d'4 cs'2 b4 cs' as2  \bar "" \break
+  gs4 as b as e r4 d e gs4 b2 a4 c' b2 a4 b2 \bar "|."
 }
 Allánsixteenwords = \lyricmode { He was ver- y tired. 
                                  His clothes were in rags and his shoes worn out. 
