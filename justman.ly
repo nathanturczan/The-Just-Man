@@ -11,7 +11,7 @@ global = {
     title = \markup { \fontsize #0.4 \bold "Loyal to the Group of Seventeen's Story: The Just Man" }
     subtitle = \markup { "from" \italic "Citadel of the Autarch" }
     poet = "Gene Wolfe"
-    composer = "Nathan Turczan, Tanner Pfeiffer, Allån Vasquez-Lopez, Noah Schwartz, Travis Ciortan"
+    composer = "Nathan Turczan, Tanner Pfeiffer, Yaya Vasquez-Lopez, Noah Schwartz, Travis Ciortan"
   }
 
 %designate language
@@ -63,14 +63,14 @@ Nathanonewords = \lyricmode { In times past, loy- al- ty to the cause of the pop
                               The will of the Group of Sev- en- teen was the will of ev'- ry- one.
 }
 
-Allánonenotes = {
+Yayaonenotes = {
   \mark \markup{ \box 1 }
   \clef bass
   \cadenzaOn
   \omit Stem
   g2 a4 bf4 c'4 d'2 \bar "|." 
 }
-Allánonewords = \lyricmode { Once up- on a time… }
+Yayaonewords = \lyricmode { Once up- on a time… }
 
 
 
@@ -169,7 +169,7 @@ Nathantwowords = \lyricmode { Let no one be i- dle. If one is i- dle,
                               It is bet- ter to walk a thou- sand leagues than to sit in the House of Star- va- tion.
 }
 
-Allántwonotes = {
+Yayatwonotes = {
   \mark \markup{ \box 2 }
   
   \cadenzaOn
@@ -179,7 +179,7 @@ Allántwonotes = {
   
   g e g a g a d' c'  \bar "|."
 }
-Allántwowords = \lyricmode { There was a re- mote farm worked in part- ner- ship by peo- ple who were not re- lat- ed. }
+Yayatwowords = \lyricmode { There was a re- mote farm worked in part- ner- ship by peo- ple who were not re- lat- ed. }
 
 
 
@@ -217,14 +217,14 @@ Nathanthreewords = \lyricmode { a third a cun- ning ar- tif- i- cer.
                                 Which is best? 
                                 He who serves the pop- u- lace.}
 
-Allánthreenotes = {
+Yayathreenotes = {
   \mark \markup{ \box 3 }
   \clef bass
   \cadenzaOn
   \omit Stem
   c'4 d' e'2 d'4 c' b2 a2  \bar "|."
 }
-Allánthreewords = \lyricmode { On this farm lived a good man. }
+Yayathreewords = \lyricmode { On this farm lived a good man. }
 
 
 
@@ -271,14 +271,14 @@ Nathanfourwords = \lyricmode { Let the work be di- vid- ed by a wise di- vid- er
                                Let the pigs grow fat. Let rats starve.
 }
 
-Allánfournotes = {
+Yayafournotes = {
   \mark \markup{ \box 4 }
   \clef bass
   \cadenzaOn
   \omit Stem
   a4 b c' b a a gs gs a \bar "|."
 }
-Allánfourwords = \lyricmode { The oth- ers cheat- ed him of his share. }
+Yayafourwords = \lyricmode { The oth- ers cheat- ed him of his share. }
 
 
 
@@ -307,7 +307,7 @@ Nathanfivenotes = {
 }
 Nathanfivewords = \lyricmode { The peo- ple meet- ing in coun- sel may judge, but no one is to re- ceive more than a hun- dred blows.  }
 
-Allánfivenotes = {
+Yayafivenotes = {
   \mark \markup{ \box 5 }
   \clef treble
   \time 4/4
@@ -315,7 +315,7 @@ Allánfivenotes = {
   \omit Stem
   e'4 ds' fs' r4 a b c' b \bar "|."
 }
-Allánfivewords = \lyricmode { He com- plained, and they beat him. }
+Yayafivewords = \lyricmode { He com- plained, and they beat him. }
 
 
 
@@ -408,14 +408,14 @@ Nathansixwords = \lyricmode {
                               By the veins. 
                               If the veins are closed, the hands will rot a- way. }
 
-Allánsixnotes = {
+Yayasixnotes = {
   \mark \markup{ \box 6 }
   \clef bass
   \cadenzaOn
   \omit Stem
   a4 c' d' d'2 c'4 e' d' c' a  \bar "|." 
 }
-Allánsixwords = \lyricmode { He left that farm and took to the roads. }
+Yayasixwords = \lyricmode { He left that farm and took to the roads. }
 
 
 
@@ -465,14 +465,14 @@ Nathansevennotes = {
 }
 Nathansevenwords = \lyricmode { Where the Group of Sev- en- teen sit, there fi- nal jus- tice is done. }
 
-Allánsevennotes = {
+Yayasevennotes = {
   \mark \markup{ \box 7 }
   \clef treble
   \cadenzaOn
   \omit Stem
   a4 b cs' d' cs' b a r4 cs' d' e'2 fs'4 e' d' cs' d' e' f' d' \bar "|."
 }
-Allánsevenwords = \lyricmode { He went to the cap- i- tal and com- plained of the way he had been treat- ed. }
+Yayasevenwords = \lyricmode { He went to the cap- i- tal and com- plained of the way he had been treat- ed. }
 
 
 
@@ -522,7 +522,7 @@ Nathaneightnotes = {
 Nathaneightwords = \lyricmode { Let there be clean wa- ter for those who toil. 
                                 Let there be hot food for them and a clean bed.  }
 
-Alláneightnotes = {
+Yayaeightnotes = {
   \mark \markup{ \box 8 }
   \clef bass
   \cadenzaOn
@@ -531,7 +531,7 @@ Alláneightnotes = {
   \bar "" \break
   d2 a4 bf a g fs g a2 g4 \bar "|."
 }
-Alláneightwords = \lyricmode { He came back to the farm, tired and hun- gry a- fter his jour- ney. }
+Yayaeightwords = \lyricmode { He came back to the farm, tired and hun- gry a- fter his jour- ney. }
 
 
 
@@ -558,14 +558,14 @@ Nathanninenotes = {
 }
 Nathanninewords = \lyricmode { No one is to re- ceive more than a hun- dred blows. }
 
-Allánninenotes = {
+Yayaninenotes = {
   \mark \markup{ \box 9 }
   \clef bass
   \cadenzaOn
  \omit Stem 
   fs4 g c b e \bar "|."
 }
-Allánninewords = \lyricmode { They beat him a- gain. }
+Yayaninewords = \lyricmode { They beat him a- gain. }
 
 
 
@@ -661,7 +661,7 @@ Nathantenwords = \lyricmode { Be- hind ev'- ry- thing some fur- ther thing is fo
                               thus the tree be- hind the bird, stone be- neath soil, the sun be- hind Urth. 
                               Be- hind our ef- forts, let there be found our ef- forts. }
 
-Allántennotes = {
+Yayatennotes = {
   \mark \markup{ \box 10 }
   \clef bass
   \cadenzaOn
@@ -670,7 +670,7 @@ Allántennotes = {
   \bar "" \break
   g4 e g a2 g4 fs2 d4 e fs g fs e d2 \bar "|."
 }
-Allántenwords = \lyricmode { The just man did not give up. 
+Yayatenwords = \lyricmode { The just man did not give up. 
                              He left the farm a- gain to walk to the cap- i- tal. }
 
 
@@ -804,7 +804,7 @@ Nathanelevenwords = \lyricmode {Can all pe- ti- tion- ers be heard?
                                 No, for all cry loud- ly. 
                                 long- est shall be heard, and jus- tice shall be done to them. }
 
-Allánelevennotes = {
+Yayaelevennotes = {
   \mark \markup{ \box 11 }
   \clef bass
   \cadenzaOn
@@ -821,7 +821,7 @@ Allánelevennotes = {
   \bar "" \break
   g a2 bf!4 c' c' bf a2 fs!4 g a4 g2 d4 ef d c2 \bar "|."
 }
-Allánelevenwords = \lyricmode { Ar- riv- ing at the cap- i- tal, 
+Yayaelevenwords = \lyricmode { Ar- riv- ing at the cap- i- tal, 
                                 he camped up- on the ver- y door- step of the Group of Sev- en- teen 
                                 and begged all who passed to lis- ten to him. 
                                 Af- ter a long time he was ad- mit- ted to the pal- ace, 
@@ -896,7 +896,7 @@ Nathantwelvewords = \lyricmode { So say the Group of Sev- en- teen:
                                  for noth- ing that they have is their own.
 }
 
-Allántwelvenotes = {
+Yayatwelvenotes = {
   \mark \markup{ \box 12 }
   \clef bass
   \cadenzaOn
@@ -907,7 +907,7 @@ Allántwelvenotes = {
   cs'4 e'2 d'2 r4 e'4 d' b4 as2 \bar "|."
   }
 }
-Allántwelvewords = \lyricmode {They told him to go back to the farm and tell the bad men— in their name— that they must leave. }
+Yayatwelvewords = \lyricmode {They told him to go back to the farm and tell the bad men— in their name— that they must leave. }
 
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -965,14 +965,14 @@ Nathanthirteennotes = {
 }
 Nathanthirteenwords = \lyricmode { As a good child to its moth- er, so is the cit- i- zen to the Group of Sev- en- teen. }
 
-Allánthirteennotes = {
+Yayathirteennotes = {
   \mark \markup{ \box 13 }
   \clef treble
   \cadenzaOn
   \omit Stem
   a4 c' fs'2 e'4 d' fs' g' \bar "|."
 }
-Allánthirteenwords = \lyricmode { He did just as they had said. }
+Yayathirteenwords = \lyricmode { He did just as they had said. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1023,14 +1023,14 @@ Nathanfourteenwords = \lyricmode {What is fool- ish speech?
                                   It has come in at the ears and goes out of the mouth. 
                                   No one is to re- ceive more than a hun- dred blows. }
 
-Allánfourteennotes = {
+Yayafourteennotes = {
   \mark \markup{ \box 14 }
   \clef bass
   \cadenzaOn
   \omit Stem
   a4 b gs b c' fs \bar "|." 
 }
-Allánfourteenwords = \lyricmode { They mocked him and beat him. }
+Yayafourteenwords = \lyricmode { They mocked him and beat him. }
 
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -1082,7 +1082,7 @@ Nathanfifteennotes = {
 }
 Nathanfifteenwords = \lyricmode { Be- hind our ef- forts, let there be found our ef- forts.}
 
-Allánfifteennotes = {
+Yayafifteennotes = {
   \mark \markup{ \box 15 }
   \clef bass
   \cadenzaOn
@@ -1093,7 +1093,7 @@ Allánfifteennotes = {
   bf, c d2 e4 f e d c2 bf,4 c2 \bar "|."
   }
 }
-Allánfifteenwords = \lyricmode { The just man did not give up. 
+Yayafifteenwords = \lyricmode { The just man did not give up. 
                                  He re- turned to the cap- i- tal once more. }
 
 
@@ -1169,7 +1169,7 @@ Nathansixteennotes = {
 Nathansixteenwords = \lyricmode {The cit- i- zen ren- ders to the pop- u- lace what is due to the pop- u- lace. 
                                  What is due to the pop- u- lace? Ev'- ry- thing.  }
 
-Allánsixteennotes = {
+Yayasixteennotes = {
   \mark \markup{ \box 16 }
   \clef bass
   \cadenzaOn
@@ -1177,7 +1177,7 @@ Allánsixteennotes = {
   ds'4 e' fs' e' ds'2 r4 d'4 cs'2 b4 cs' as2  \bar "" \break
   gs4 as b as e r4 d e gs4 b2 a4 c' b2 a4 b2 \bar "|."
 }
-Allánsixteenwords = \lyricmode { He was ver- y tired. 
+Yayasixteenwords = \lyricmode { He was ver- y tired. 
                                  His clothes were in rags and his shoes worn out. 
                                  He had no food and noth- ing to trade.}
 
@@ -1229,14 +1229,14 @@ Nathanseventeenwords = \lyricmode { It is bet- ter to be just than to be kind,
                                     but on- ly good judg- es can be just; 
                                     let those who can- not be just be kind. }
 
-Allánseventeennotes = {
+Yayaseventeennotes = {
   \mark \markup{ \box 17 }
   \clef bass
   \cadenzaOn
   \omit Stem
   e4 e gs gs gs gs c' bf gs e \bar "|."
 }
-Allánseventeenwords = \lyricmode { In the cap- i- tal he lived by beg- ging.}
+Yayaseventeenwords = \lyricmode { In the cap- i- tal he lived by beg- ging.}
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1300,7 +1300,7 @@ Nathaneighteennotes = {
 }
 Nathaneighteenwords = \lyricmode { long- est shall be heard, and jus- tice shall be done to them. }
 
-Alláneighteennotes = {
+Yayaeighteennotes = {
   \mark \markup{ \box 18 }
   \clef bass
   \cadenzaOn
@@ -1311,7 +1311,7 @@ Alláneighteennotes = {
   \bar "" \break
   df ef! f2 ef4 f g ef g4 bf!2 af!4 cf' bf2 af4 bf2 \bar "|."
 }
-Alláneighteenwords = \lyricmode { This time he had to wait a long while be- fore he was ad- mit- ted to the pal- ace, 
+Yayaeighteenwords = \lyricmode { This time he had to wait a long while be- fore he was ad- mit- ted to the pal- ace, 
                                   but at last they let him in and heard what he had to say. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -1352,14 +1352,14 @@ Nathannineteennotes = {
 }
 Nathannineteenwords = \lyricmode { Those who will not serve the pop- u- lace shall serve the pop- u- lace. }
 
-Allánnineteennotes = {
+Yayanineteennotes = {
   \mark \markup{ \box 19 }
   \clef treble
   \cadenzaOn
   \omit Stem
   e'4 fs' e' cs' d' e' fs' e'2 cs'4 e' d' \bar "|."
 }
-Allánnineteenwords = \lyricmode { They said they would put the bad men in pri- son. }
+Yayanineteenwords = \lyricmode { They said they would put the bad men in pri- son. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1407,14 +1407,14 @@ Nathantwentynotes = {
 Nathantwentywords = \lyricmode {Let there be clean wa- ter for those who toil. 
                                 Let there be hot food for them, and a clean bed. }
 
-Allántwentynotes = {
+Yayatwentynotes = {
   \mark \markup{ \box 20 }
   \clef treble
   \cadenzaOn
   \omit Stem
   b4 cs' ds' es' \bar "|."
 }
-Allántwentywords = \lyricmode {He went back home. }
+Yayatwentywords = \lyricmode {He went back home. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1438,14 +1438,14 @@ Nathantwentyonenotes = {
 }
 Nathantwentyonewords = \lyricmode { No one is to re- ceive more than a hun- dred blows. }
 
-Allántwentyonenotes = {
+Yayatwentyonenotes = {
   \mark \markup{ \box 21 }
   \clef bass
   \cadenzaOn
   \omit Stem
   b4 cs' d' b gf f \bar "|." 
 }
-Allántwentyonewords = \lyricmode {He was beat- en a- gain. }
+Yayatwentyonewords = \lyricmode {He was beat- en a- gain. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1496,7 +1496,7 @@ Nathantwentytwonotes = {
 }
 Nathantwentytwowords = \lyricmode {Be- hind our ef- forts, let there be found our ef- forts. }
 
-Allántwentytwonotes = {
+Yayatwentytwonotes = {
   \mark \markup{ \box 22 }
   \clef bass
   \cadenzaOn
@@ -1508,7 +1508,7 @@ Allántwentytwonotes = {
   a4 b cs' d' cs' b a cs' d' e'2 \bar "|."
   }
 }
-Allántwentytwowords = \lyricmode { But he did not give up. 
+Yayatwentytwowords = \lyricmode { But he did not give up. 
                                    Once more he set off for the cap- i- tal to com- plain}
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -1539,14 +1539,14 @@ Nathantwentythreenotes = {
 Nathantwentythreewords = \lyricmode {Those who fight for the pop- u- lace fight with a thou- sand hearts. 
                                      Those who fight a- gainst them with none. }
 
-Allántwentythreenotes = {
+Yayatwentythreenotes = {
   \mark \markup{ \box 23 }
   \clef bass
   \cadenzaOn
   \omit Stem
   \transpose e c {e'2 ds'4 c'4 a b4 ds' g'2 \bar "|." }
 }
-Allántwentythreewords = \lyricmode {Now the bad men were a- fraid. }
+Yayatwentythreewords = \lyricmode {Now the bad men were a- fraid. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1572,7 +1572,7 @@ Nathantwentyfournotes = {
 }
 Nathantwentyfourwords = \lyricmode { Let no one op- pose the de- ci- sions of the Group of Sev- en- teen.}
 
-Allántwentyfournotes = {
+Yayatwentyfournotes = {
   \mark \markup{ \box 24 }
   \clef bass
   \cadenzaOn
@@ -1590,7 +1590,7 @@ Allántwentyfournotes = {
   c' c' ef' r4 \bar "" \break
  ef'! ff' gf'2 c'4 ff' ef' df'! ff' ef' df' c'! af! \bar "|."
 }
-Allántwentyfourwords = \lyricmode { They said to them- selves, 
+Yayatwentyfourwords = \lyricmode { They said to them- selves, 
                                     ‘He has gone to the pal- ace a- gain and a- gain, 
                                     and each time he must have told the rul- ers there 
                                     that we did not o- bey their ear- li- er com- mands. 
@@ -1655,7 +1655,7 @@ Nathantwentyfivenotes = {
 }
 Nathantwentyfivewords = \lyricmode {If their wounds are in their backs, who shall stanch their blood? }
 
-Allántwentyfivenotes = {
+Yayatwentyfivenotes = {
   \mark \markup{ \box 25 }
   \clef bass
   \cadenzaOn
@@ -1664,7 +1664,7 @@ Allántwentyfivenotes = {
     e'4 fs' ds' e' g' fs' \bar "|."
   }
 }
-Allántwentyfivewords = \lyricmode {The bad men ran a- way. }
+Yayatwentyfivewords = \lyricmode {The bad men ran a- way. }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1702,14 +1702,14 @@ Nathantwentysixnotes = {
 }
 Nathantwentysixwords = \lyricmode { Where are those who in times past have op- posed the de- ci- sions of the Group of Sev- en- teen?}
 
-Allántwentysixnotes = {
+Yayatwentysixnotes = {
   \mark \markup{ \box 26 }
   \clef bass
   \cadenzaOn
   \omit Stem
   b4 b c' b d e fs \bar "|."
 }
-Allántwentysixwords = \lyricmode { They were nev- er seen a- gain.}
+Yayatwentysixwords = \lyricmode { They were nev- er seen a- gain.}
 
 %-----------------------------------------------------------------------------------------------------------------------------
 
@@ -1791,7 +1791,7 @@ Nathantwentysevenwords = \lyricmode {Let there be clean wa- ter for those who to
                                      Then they will sing at their work, and their work will be light to them. 
                                      Then they will sing at the har- vest, and the har- vest will be heav- y. }
 
-Allántwentysevennotes = {
+Yayatwentysevennotes = {
   \mark \markup{ \box 27 }
   \clef bass
   \cadenzaOn
@@ -1800,7 +1800,7 @@ Allántwentysevennotes = {
   \bar "" \break
   g d'2 c'4 b a g e a g \bar "|."
 }
-Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap- pi- ly ev- er af- ter. }
+Yayatwentysevenwords = \lyricmode {The just man re- turned home and lived hap- pi- ly ev- er af- ter. }
 
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -1850,15 +1850,15 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
   
 \score {
 \new Staff \with {
-    instrumentName = #"Allán"
+    instrumentName = #"Yaya"
   } 
   <<
-      \new Voice = "Allánone" <<
+      \new Voice = "Yayaone" <<
         \global
-        \Allánonenotes
+        \Yayaonenotes
       >>
       
-      \new Lyrics \lyricsto "Allánone" \Allánonewords
+      \new Lyrics \lyricsto "Yayaone" \Yayaonewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -1910,11 +1910,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwo" <<
+      \new Voice = "Yayatwo" <<
         \global
-        \Allántwonotes
+        \Yayatwonotes
       >>
-      \new Lyrics \lyricsto "Allántwo" \Allántwowords
+      \new Lyrics \lyricsto "Yayatwo" \Yayatwowords
     >>
     \layout { 
     %% insert these lines within the 
@@ -1966,11 +1966,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánthree" <<
+      \new Voice = "Yayathree" <<
         \global
-        \Allánthreenotes
+        \Yayathreenotes
       >>
-      \new Lyrics \lyricsto "Allánthree" \Allánthreewords
+      \new Lyrics \lyricsto "Yayathree" \Yayathreewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2022,11 +2022,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánfour" <<
+      \new Voice = "Yayafour" <<
         \global
-        \Allánfournotes
+        \Yayafournotes
       >>
-      \new Lyrics \lyricsto "Allánfour" \Allánfourwords
+      \new Lyrics \lyricsto "Yayafour" \Yayafourwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2078,11 +2078,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánfive" <<
+      \new Voice = "Yayafive" <<
         \global
-        \Allánfivenotes
+        \Yayafivenotes
       >>
-      \new Lyrics \lyricsto "Allánfive" \Allánfivewords
+      \new Lyrics \lyricsto "Yayafive" \Yayafivewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2134,11 +2134,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánsix" <<
+      \new Voice = "Yayasix" <<
         \global
-        \Allánsixnotes
+        \Yayasixnotes
       >>
-      \new Lyrics \lyricsto "Allánsix" \Allánsixwords
+      \new Lyrics \lyricsto "Yayasix" \Yayasixwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2190,11 +2190,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánseven" <<
+      \new Voice = "Yayaseven" <<
         \global
-        \Allánsevennotes
+        \Yayasevennotes
       >>
-      \new Lyrics \lyricsto "Allánseven" \Allánsevenwords
+      \new Lyrics \lyricsto "Yayaseven" \Yayasevenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2246,11 +2246,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Alláneight" <<
+      \new Voice = "Yayaeight" <<
         \global
-        \Alláneightnotes
+        \Yayaeightnotes
       >>
-      \new Lyrics \lyricsto "Alláneight" \Alláneightwords
+      \new Lyrics \lyricsto "Yayaeight" \Yayaeightwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2302,11 +2302,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánnine" <<
+      \new Voice = "Yayanine" <<
         \global
-        \Allánninenotes
+        \Yayaninenotes
       >>
-      \new Lyrics \lyricsto "Allánnine" \Allánninewords
+      \new Lyrics \lyricsto "Yayanine" \Yayaninewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2358,11 +2358,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánten" <<
+      \new Voice = "Yayaten" <<
         \global
-        \Allántennotes
+        \Yayatennotes
       >>
-      \new Lyrics \lyricsto "Allánten" \Allántenwords
+      \new Lyrics \lyricsto "Yayaten" \Yayatenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2414,11 +2414,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Alláneleven" <<
+      \new Voice = "Yayaeleven" <<
         \global
-        \Allánelevennotes
+        \Yayaelevennotes
       >>
-      \new Lyrics \lyricsto "Alláneleven" \Allánelevenwords
+      \new Lyrics \lyricsto "Yayaeleven" \Yayaelevenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2470,11 +2470,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwelve" <<
+      \new Voice = "Yayatwelve" <<
         \global
-        \Allántwelvenotes
+        \Yayatwelvenotes
       >>
-      \new Lyrics \lyricsto "Allántwelve" \Allántwelvewords
+      \new Lyrics \lyricsto "Yayatwelve" \Yayatwelvewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2526,11 +2526,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánthirteen" <<
+      \new Voice = "Yayathirteen" <<
         \global
-        \Allánthirteennotes
+        \Yayathirteennotes
       >>
-      \new Lyrics \lyricsto "Allánthirteen" \Allánthirteenwords
+      \new Lyrics \lyricsto "Yayathirteen" \Yayathirteenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2582,11 +2582,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánfourteen" <<
+      \new Voice = "Yayafourteen" <<
         \global
-        \Allánfourteennotes
+        \Yayafourteennotes
       >>
-      \new Lyrics \lyricsto "Allánfourteen" \Allánfourteenwords
+      \new Lyrics \lyricsto "Yayafourteen" \Yayafourteenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2638,11 +2638,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánfifteen" <<
+      \new Voice = "Yayafifteen" <<
         \global
-        \Allánfifteennotes
+        \Yayafifteennotes
       >>
-      \new Lyrics \lyricsto "Allánfifteen" \Allánfifteenwords
+      \new Lyrics \lyricsto "Yayafifteen" \Yayafifteenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2694,11 +2694,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánsixteen" <<
+      \new Voice = "Yayasixteen" <<
         \global
-        \Allánsixteennotes
+        \Yayasixteennotes
       >>
-      \new Lyrics \lyricsto "Allánsixteen" \Allánsixteenwords
+      \new Lyrics \lyricsto "Yayasixteen" \Yayasixteenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2755,11 +2755,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánseventeen" <<
+      \new Voice = "Yayaseventeen" <<
         \global
-        \Allánseventeennotes
+        \Yayaseventeennotes
       >>
-      \new Lyrics \lyricsto "Allánseventeen" \Allánseventeenwords
+      \new Lyrics \lyricsto "Yayaseventeen" \Yayaseventeenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2811,11 +2811,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Alláneighteen" <<
+      \new Voice = "Yayaeighteen" <<
         \global
-        \Alláneighteennotes
+        \Yayaeighteennotes
       >>
-      \new Lyrics \lyricsto "Alláneighteen" \Alláneighteenwords
+      \new Lyrics \lyricsto "Yayaeighteen" \Yayaeighteenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2867,11 +2867,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allánnineteen" <<
+      \new Voice = "Yayanineteen" <<
         \global
-        \Allánnineteennotes
+        \Yayanineteennotes
       >>
-      \new Lyrics \lyricsto "Allánnineteen" \Allánnineteenwords
+      \new Lyrics \lyricsto "Yayanineteen" \Yayanineteenwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2923,11 +2923,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwenty" <<
+      \new Voice = "Yayatwenty" <<
         \global
-        \Allántwentynotes
+        \Yayatwentynotes
       >>
-      \new Lyrics \lyricsto "Allántwenty" \Allántwentywords
+      \new Lyrics \lyricsto "Yayatwenty" \Yayatwentywords
     >>
     \layout { 
     %% insert these lines within the 
@@ -2979,11 +2979,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentyone" <<
+      \new Voice = "Yayatwentyone" <<
         \global
-        \Allántwentyonenotes
+        \Yayatwentyonenotes
       >>
-      \new Lyrics \lyricsto "Allántwentyone" \Allántwentyonewords
+      \new Lyrics \lyricsto "Yayatwentyone" \Yayatwentyonewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -3035,11 +3035,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentytwo" <<
+      \new Voice = "Yayatwentytwo" <<
         \global
-        \Allántwentytwonotes
+        \Yayatwentytwonotes
       >>
-      \new Lyrics \lyricsto "Allántwentytwo" \Allántwentytwowords
+      \new Lyrics \lyricsto "Yayatwentytwo" \Yayatwentytwowords
     >>
     \layout { 
     %% insert these lines within the 
@@ -3091,11 +3091,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentythree" <<
+      \new Voice = "Yayatwentythree" <<
         \global
-        \Allántwentythreenotes
+        \Yayatwentythreenotes
       >>
-      \new Lyrics \lyricsto "Allántwentythree" \Allántwentythreewords
+      \new Lyrics \lyricsto "Yayatwentythree" \Yayatwentythreewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -3147,11 +3147,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentyfour" <<
+      \new Voice = "Yayatwentyfour" <<
         \global
-        \Allántwentyfournotes
+        \Yayatwentyfournotes
       >>
-      \new Lyrics \lyricsto "Allántwentyfour" \Allántwentyfourwords
+      \new Lyrics \lyricsto "Yayatwentyfour" \Yayatwentyfourwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -3203,11 +3203,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentyfive" <<
+      \new Voice = "Yayatwentyfive" <<
         \global
-        \Allántwentyfivenotes
+        \Yayatwentyfivenotes
       >>
-      \new Lyrics \lyricsto "Allántwentyfive" \Allántwentyfivewords
+      \new Lyrics \lyricsto "Yayatwentyfive" \Yayatwentyfivewords
     >>
     \layout { 
     %% insert these lines within the 
@@ -3259,11 +3259,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentysix" <<
+      \new Voice = "Yayatwentysix" <<
         \global
-        \Allántwentysixnotes
+        \Yayatwentysixnotes
       >>
-      \new Lyrics \lyricsto "Allántwentysix" \Allántwentysixwords
+      \new Lyrics \lyricsto "Yayatwentysix" \Yayatwentysixwords
     >>
     \layout { 
     %% insert these lines within the 
@@ -3316,11 +3316,11 @@ Allántwentysevenwords = \lyricmode {The just man re- turned home and lived hap-
 \score {
 \new Staff 
   <<
-      \new Voice = "Allántwentyseven" <<
+      \new Voice = "Yayatwentyseven" <<
         \global
-        \Allántwentysevennotes
+        \Yayatwentysevennotes
       >>
-      \new Lyrics \lyricsto "Allántwentyseven" \Allántwentysevenwords
+      \new Lyrics \lyricsto "Yayatwentyseven" \Yayatwentysevenwords
     >>
     \layout { 
     %% insert these lines within the 
